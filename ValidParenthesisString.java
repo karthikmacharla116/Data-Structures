@@ -1,6 +1,6 @@
 Problem Link: https://leetcode.com/problems/valid-parenthesis-string/description/?envType=daily-question&envId=2024-04-07
 
-class ValisParenthesisString {
+class ValidParenthesisString {
     public boolean checkValidString(String s) {
         Stack<Integer> openStack = new Stack<>();
         Stack<Integer> starStack = new Stack<>();
