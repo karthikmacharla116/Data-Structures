@@ -37,7 +37,7 @@ public class NumberOfIslandsII {
                     int new_row = row + dir[d];
                     int new_col = col + dir[d+1];
                     if(isValidNode(new_row, new_col, m, n, visited)) {
-                        int nodeV = new_row * col + new_col;
+                        int nodeV = new_row * n + new_col;
                         //step1 : Check ultimate parents of nodeU and nodeV
                         int ulp_nodeU = dSet.findParent(nodeU);
                         int ulp_nodeV = dSet.findParent(nodeV);
